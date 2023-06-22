@@ -1,0 +1,89 @@
+body {
+  height: 100%;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #dde1e7;
+}
+
+.form-signin {
+  width: 450px;
+  padding: 40px 30px;
+  border-radius: 10px;
+  position: relative;
+  background: rgba(255, 255, 355, 0.05);
+  border-radius: 6px;
+  overflow: hidden;
+  z-index: 10;
+  backdrop-filter: blur(15px);
+  border-top: 1px solid rgba(255, 255, 355, 0.2);
+  border-left: 1px solid rgba(255, 255, 355, 0.2);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+
+.form-floating {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.form-floating input {
+  height: 100%;
+  width: 100%;
+  padding-left: 45px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  color: #595959;
+  background: #dde1e7;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.form-floating label {
+  position: absolute;
+  color: #595959;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+button {
+  margin: 15px 0;
+  width: 100%;
+  height: 50px;
+  color: #a8a8a5;
+  font-weight: 600;
+  background: #dde1e7;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 374px) {
+  .form-signin {
+    width: 350px;
+    padding: 40px 30px;
+    margin: auto;
+  }
+
+  .form-floating {
+    height: 50px;
+    width: 100%;
+  }
+}
